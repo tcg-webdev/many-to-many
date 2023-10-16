@@ -1,0 +1,54 @@
+{
+    "name": "tcgwebdev/many-to-many",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "martinjuul",
+        "martin-juul",
+        "tcg.webdev"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/tcgwebdev/many-to-many/issues"
+    },
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Martin Juul",
+            "homepage": "https://juul.xyz"
+        },
+        {
+            "name": "TCG webdev"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "laravel/nova": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juul\\Fields\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TcgWebdev\\Fields\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ]
+}
